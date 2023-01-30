@@ -1,43 +1,77 @@
-<html>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
-  
+<!DOCTYPE html>
+<html> 
   <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+ 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <style>
+      body{
+        font-family: 'Outfit', sans-serif;
+        background-color:#9de3f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh
+      }
+      main{
+        width: 328px;
+        padding:16px;
+        background-color: hsl(207, 100%, 78%);
+        border-radius:7vh
+      }
+      .tours{
+        display: flex;
+        text-align: center;
+        color:hsl(241, 97%, 75%);
+        border-spacing: 5px;
+        font-size: 28px;
+        line-height: 100%
+      }
+      .tours:hover{
+        zoom:1.1;
+        color:#8e04ff;
+      }
+      img{
+        max-width: 100%;
+        border-radius: 10%
+      }
+
+      .review{
+        display:flex;
+        text-align: center;
+        font-weight:400;
+        color: #6b75ff;
+        font-size: 20px;
+        Line-height:19px;
+        Letter-spacing: 0.19px;
+        border-spacing: 5px
+      }
+      .review:hover{
+        zoom: 1.2;
+        color:#8e04ff;
+      }
+    </style>
+
     <title> let's build a future!</title>
   </head>
-  <body style="font-family: 'Outfit', sans-serif;
-               background-color:#e5b6f8;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               height: 100vh">
-  <div style="width: 328px;
-              padding:16px;
-              background-color: hsl(261, 97%, 75%);
-              border-radius:10vh;">
+
+  <body>
+    <main>
       
-      <a style="display: flex;
-                text-align: center;
-                color:hsl(241, 92%, 46%);
-                border-spacing: 5px;
-                font-size: 28px;
-                line-height: 100%;"
-                 href="https://www.tripadvisor.com/Attraction_Review-g294195-d17373982-Reviews-Wonderful_Travel-Tbilisi.html/"> 
+      <a class="tours" href="https://www.tripadvisor.com/Attraction_Review-g294195-d17373982-Reviews-Wonderful_Travel-Tbilisi.html/"> 
         Do you want to explore Wonderful Georgia?
       cklick here </a>
-      <img style="max-width: 100%;
-                  border-radius: 10%"
-           src="https://lh3.googleusercontent.com/pw/AL9nZEVY-2M9DZBTQL23iOgfoFCTILq5eIAgjlqMLptv7k8UpXUdzCZ9jE2HfvSm94mM7REw9QL3e99MXDsABDukceUFKXyeq5QcNcsdd1UBQ__AXqnkxfG_JP9k8CuYZv7fVWzm8pojUXNWzCWZ4BArnjhwFg=s625-no?authuser=5/">
-      <a href="https://www.tripadvisor.com/UserReview-g294195-d17373982-Wonderful_Travel-Tbilisi.html"
-         style="display:flex;
-                text-align: center;
-                font-weight:400;
-                color: #000dca;
-                font-size: 20px;
-                Line-height:19px;
-                Letter-spacing: 0.19px;
-                border-spacing: 5px;"> If you already had a great experience with us, please write a review. </a>
-    </div>
+      <img src="https://lh3.googleusercontent.com/pw/AL9nZEVY-2M9DZBTQL23iOgfoFCTILq5eIAgjlqMLptv7k8UpXUdzCZ9jE2HfvSm94mM7REw9QL3e99MXDsABDukceUFKXyeq5QcNcsdd1UBQ__AXqnkxfG_JP9k8CuYZv7fVWzm8pojUXNWzCWZ4BArnjhwFg=s625-no?authuser=5/">
+      <a class="review" href="https://www.tripadvisor.com/UserReview-g294195-d17373982-Wonderful_Travel-Tbilisi.html">
+         If you already had a great experience with us, please write a review. </a>
+      </main>
   </body>
 </html>
